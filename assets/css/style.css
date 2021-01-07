@@ -1513,6 +1513,25 @@ section {
   animation-direction: normal, alternate;
 }
 
-.interdoc{
-    background-image: url('../img/ayyyy.gif');
+/*.interdoc{
+    background-image: url(../img/interdoc_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+
+
+
+.nav-section {
+    padding-top: 80px !important;
+    margin-top: 0px !important;
 }
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.carousel-control{
+    background-image: none;
+    background-repeat: repeat-x;
+    }

@@ -7,6 +7,9 @@
     <title>Home - Lim Wanzhen</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7f4d47902dc785f30dedcac9c996b9f31d4dfcc33567cc48f0431bc918c2bf05.js"></script>
     <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-bb9a2ba1f03f6147732cb3cd52ac86c6b24524aa87a05ed0b726f11e46d7e277.js"></script>
     <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
@@ -256,41 +259,101 @@
             <div class="section-title">
                 <h2>Projects</h2>
             </div>
-            <div class="row">
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="interdoc icon-box">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <h4><a href="">Interdoc</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <div class="">
+                <div class="project row mb-4" style="padding:30px;">
+                    <div class="col-lg-5">
+                        <div class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/interdoc_1.png" style="width:100%; max-height:250px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 p-0" style="height: 20px;"></div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><h3 class="d-inline"><a href="https://github.com/Kobot7/Interdoc"
+                                                         class="project-details">Interdoc</a></h3></div>
+                        </div>
+                        <div class="mt-4 mb-2">
+                            A web-based application that manages document-sharing in a internal company
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-                     data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-file"></i></div>
-                        <h4><a href="">SWOY Bubble Tea</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                <div class="project row my-4" style="padding:30px;">
+                    <div class="col-lg-5">
+                        <div id="swoycarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/img/swoy_bubble_1.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/swoy_bubble_2.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/swoy_bubble_3.png" style="width:100%; max-height:250px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 p-0" style="height: 20px;"></div>
+
+                    <div class="col-lg-6 align-self-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><h3 class="d-inline"><a href="https://github.com/cybrsucks/new-secure-swoy"
+                                                         class="project-details">SWOY Bubble Tea</a>
+                            </h3></div>
+                        </div>
+
+                        <div class="mt-4 mb-2">
+                            Web-based application that needs security hardening
+                        </div>
                     </div>
                 </div>
+                <div class="project row my-4" style="padding:30px;">
+                    <div class="col-lg-5">
+                        <div id="deloremcarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/img/delorem_ipsum_1.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/delorem_ipsum_2.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/delorem_ipsum_3.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/delorem_ipsum_4.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/delorem_ipsum_5.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/delorem_ipsum_6.png" style="width:100%; max-height:250px;">
+                                </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-                     data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
-                        <h4><a href="">Delorem Ipsum Drug Store</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 p-0" style="height: 20px;"></div>
+
+                    <div class="col-lg-6 align-self-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><h3 class="d-inline"><a href="https://github.com/Kobot7/Delorem-Ipsum-Online-Store"
+                                                         class="project-details">Delorem Ipsum Drug Store</a>
+                            </h3></div>
+                        </div>
+
+                        <div class="mt-4 mb-2">
+                            Web-based application that features CRUD functionalities and how they can be applied to offer a convenient and immersive experience for admin and customers
+                        </div>
                     </div>
                 </div>
-
-<!--                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"-->
-<!--                     data-aos-delay="400">-->
-<!--                    <div class="icon-box">-->
-<!--                        <div class="icon"><i class="bx bx-layer"></i></div>-->
-<!--                        <h4><a href="">Nemo Enim</a></h4>-->
-<!--                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
         </div>
     </section><!-- End Services Section -->
@@ -302,6 +365,11 @@
 window.onload = function() {
   decodeText();
 };
+
+
+
+
+
 
 
 
