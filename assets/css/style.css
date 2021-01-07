@@ -869,7 +869,6 @@ section {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
-    background: #fff;
     }
 
 .services .icon-box .icon {
@@ -1512,4 +1511,8 @@ section {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+.interdoc{
+    background-image: url('../img/ayyyy.gif');
 }
