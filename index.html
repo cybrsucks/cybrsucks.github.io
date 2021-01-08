@@ -8,6 +8,8 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7f4d47902dc785f30dedcac9c996b9f31d4dfcc33567cc48f0431bc918c2bf05.js"></script>
@@ -50,7 +52,14 @@
         <div class="row">
             <div class="col-lg-8 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
                  data-aos="fade-up" data-aos-delay="200">
-                <h1><span style="text-decoration: underline">Lim Wanzhen</span></h1>
+                <h1><span style="text-decoration: underline">Lim Wanzhen</span>
+                    <a href="mailto:lim.wanzhen.isme@gmail.com" class="hvr-bob fa-social-links fa fa-envelope"></a>
+                    <a href="https://github.com/cybrsucks" class="hvr-bob fa-social-links fab fa-github"
+                       target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/wanzhen-lim/"
+                       class="hvr-bob fa-social-links fab fa-linkedin" target="_blank"></a>
+                </h1>
+
                 <div class="decode-text" onclick="decodeText();">
                     <div class="text-animation">W</div>
                     <div class="text-animation">e</div>
@@ -98,15 +107,11 @@
                     <div class="text-animation">e</div>
                     <div class="text-animation">f</div>
                 </div>
-                <!--<h2>(We let numbers do the talking for us.)</h2>-->
                 <div class="d-lg-flex">
                     <a href="#about" class="btn-get-started scrollto">Get to know me better</a>
                     <a href="assets/img/Resume.pdf" class="hvr-bob btn-resume scrollto"
-                       style="margin-left:10px;">Resume</a>
+                       style="margin-left:10px;" target="_blank">Resume</a>
                 </div>
-            </div>
-            <div class="col-lg-2 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/img/ayyyy.gif" alt="assets/img/me_irl.png" class="" style="height: 260px;">
             </div>
         </div>
     </div>
@@ -120,25 +125,65 @@
                 <h2>About Me</h2>
             </div>
             <div class="row content">
-                <div class="col-lg-6 typewriter">
-                    <img src="assets/img/me.jpeg">
-                </div>
-                <div class="col-lg-6 typewriter">
-                    <p>
-                        I am a fresh diploma graduate from Nanyang Polytechnic who specialises in Cybersecurity and
-                        Digital Forensics. During the course of my polytechnic studies, I have found a new profound love
-                        for analysing data and trends in our modern day society.
-                    </p>
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 typewriter">
-                    <p>
-                        When presented with something new, we as humans like to speculate and create hypotheses. It is
-                        the most natural way of learning outside of our comfort zones. I love to be proven wrong and to
-                        learn about certain behaviours. <br> <br> I believe that as our modern society evolves
-                        into an even more tech-savvy society, we can use big data to our advantage to capitalise
-                        our consumer needs and better understand unique behaviours.
-                    </p>
-                    <!--            <a href="#" class="btn-learn-more">Learn More</a>-->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <h3>Lim Wanzhen</h3>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Education: </strong>Diploma in
+                                        Cybersecurity &amp; Digital Forensics, Nanyang Polytechnic
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Email: </strong><a
+                                            href="mailto: lim.wanzhen.isme@gmail.com">lim.wanzhen.isme@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>Technical Skills</h3>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Data Analysis: </strong> Splunk,
+                                        Tableau
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Programming Languages: </strong>
+                                        Python, Java
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Digital Forensics: </strong> FTK
+                                        Tools (Imager, Encase),
+                                        Wireshark
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Front-End App
+                                        Development: </strong> Flask, Jinja, Django, Javascript
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Back-End App
+                                        Development: </strong> MySQL, Google APIs
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Operating Systems:</strong>
+                                        Windows, Linux
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            I am a fresh diploma graduate from Nanyang Polytechnic who specialises in Cybersecurity and
+                            Digital Forensics.
+                        </p>
+                        <p>
+                            When presented with something new, we as humans like to speculate and create hypotheses. It
+                            is
+                            the most natural way of learning outside of our comfort zones. I love to be proven wrong and
+                            to
+                            learn about certain behaviours. <br> <br> I believe that as our modern society evolves
+                            into an even more tech-savvy society, we can use big data to our advantage to capitalise
+                            our consumer needs and better understand unique behaviours.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -207,54 +252,8 @@
             </div>
 
         </div>
-    </section><!-- End Why Us Section -->
+    </section>
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                    <img src="assets/img/skills.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                    <h3>Skills</h3>
-                    <!--                    <p class="font-italic">-->
-                    <!--                    </p>-->
-                    <div class="skills-content">
-                        <div class="progress">
-                            <span class="skill">Python <i class="val">95%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">MySQL Workbench<i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Splunk <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <span class="skill">Tableau <i class="val">75%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Skills Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="projects" class="services section-bg">
@@ -263,27 +262,27 @@
                 <h2>Projects</h2>
             </div>
             <div class="">
-                <div class="project row mb-4" style="padding:30px;">
-                    <div class="col-lg-5">
-                        <div class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/interdoc_1.png" style="width:100%; max-height:250px;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-1 p-0" style="height: 20px;"></div>
-                    <div class="col-lg-6 align-self-center">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><h3 class="d-inline"><a href="https://github.com/Kobot7/Interdoc"
-                                                         class="project-details">Interdoc</a></h3></div>
-                        </div>
-                        <div class="mt-4 mb-2">
-                            A web-based application that manages document-sharing in a internal company
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="project row mb-4" style="padding:30px;">-->
+<!--                    <div class="col-lg-5">-->
+<!--                        <div class="carousel slide" data-ride="carousel">-->
+<!--                            <div class="carousel-inner">-->
+<!--                                <div class="carousel-item active">-->
+<!--                                    <img src="assets/img/interdoc_1.png" style="width:100%; max-height:250px;">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-1 p-0" style="height: 20px;"></div>-->
+<!--                    <div class="col-lg-6 align-self-center">-->
+<!--                        <div class="d-flex justify-content-between align-items-center">-->
+<!--                            <div><h3 class="d-inline"><a href="https://github.com/Kobot7/Interdoc"-->
+<!--                                                         class="project-details">Interdoc</a></h3></div>-->
+<!--                        </div>-->
+<!--                        <div class="mt-4 mb-2">-->
+<!--                            A web-based application that manages document-sharing in a internal company-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
                 <div class="project row my-4" style="padding:30px;">
                     <div class="col-lg-5">
@@ -307,16 +306,55 @@
                     <div class="col-lg-6 align-self-center">
                         <div class="d-flex justify-content-between align-items-center">
                             <div><h3 class="d-inline"><a href="https://github.com/cybrsucks/new-secure-swoy"
-                                                         class="project-details">SWOY Bubble Tea</a>
+                                                         class="project-details" target="_blank">SWOY Bubble Tea</a>
                             </h3></div>
                         </div>
 
                         <div class="mt-4 mb-2">
-                            Web-based application that needs security hardening
+                            <strong> A web-based application that needs security hardening. </strong> <br>
+                            For this project, our team was tasked to create two versions of a website, an insecure and a
+                            secure version. <br>
+                            We were to choose 2 vulnerabilities from the OWASP Top 10 Web Vulnerabilities and provide a solution to fix the 2 vulnerabilities we have
+                            chosen. <br>
+                            I have chosen to work on Insufficient Logging and Monitoring, and Broken Authentication.
                         </div>
                     </div>
                 </div>
                 <div class="project row my-4" style="padding:30px;">
+                    <div class="col-lg-5">
+                        <div id="applycryptocarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/img/apply_crypto.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/apply_crypto_1.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/apply_crypto_2.png" style="width:100%; max-height:250px;">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/apply_crypto_3.png" style="width:100%; max-height:250px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1 p-0" style="height: 20px;"></div>
+
+                    <div class="col-lg-6 align-self-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div><h3 class="d-inline"><a href="https://github.com/cybrsucks/apply_crypto" class="project-details" target="_blank">Applied Cryptography Project</a>
+                            </h3></div>
+                        </div>
+
+                        <div class="mt-4 mb-2">
+                            <strong>A simple website that allows user to learn and understand how certain cryptographic techniques work.</strong> <br>
+                            It features encryption and decryption tools from different cryptographic methods such as Rail Fence, Vernam Cipher, AES, etc.<br>
+                        It also offers some visualisation and explanations on how different cryptographic methods work.</div>
+                    </div>
+                </div>
+                 <div class="project row my-4" style="padding:30px;">
                     <div class="col-lg-5">
                         <div id="deloremcarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
@@ -348,12 +386,13 @@
                     <div class="col-lg-6 align-self-center">
                         <div class="d-flex justify-content-between align-items-center">
                             <div><h3 class="d-inline"><a href="https://github.com/Kobot7/Delorem-Ipsum-Online-Store"
-                                                         class="project-details">Delorem Ipsum Drug Store</a>
+                                                         class="project-details" target="_blank">Delorem Ipsum Drug Store</a>
                             </h3></div>
                         </div>
 
                         <div class="mt-4 mb-2">
-                            Web-based application that features CRUD functionalities and how they can be applied to offer a convenient and immersive experience for admin and customers
+                            <strong>A web-based application that features CRUD functionalities and utilises inventory management.</strong> <br>
+                            Based on the CRUD features, I created the options to <span style="text-decoration: underline">create user</span>, <span style="text-decoration: underline">retrieve user details</span>, <span style="text-decoration: underline">update new user details</span> and <span style="text-decoration: underline">delete user</span> using MySQL Database
                         </div>
                     </div>
                 </div>
@@ -368,16 +407,6 @@
 window.onload = function() {
   decodeText();
 };
-
-
-
-
-
-
-
-
-
-
 </script>
 <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
 <script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-b8f23ceb-686e-bb7a-d43c-06648701ed2e"
